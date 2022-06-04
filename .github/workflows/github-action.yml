@@ -8,6 +8,7 @@ on:
       - master
     paths:
       - 'Firmware/Configuration/**.h'
+      - '.github/workflows/github-action.yml'
 
 jobs:
   build_and_push:
@@ -15,8 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       #BOARD: BIGTREE_SKR_2
-      BOARD: BIGTREE_SKR_2_usb_flash_drive
+      BOARD: BIGTREE_SKR_2
       USE_REPO: https://github.com/tinuva/B1-SE-SKR2
+      USE_BRANCH: 2.1.x
 
     steps:
       - name: Check out repo
