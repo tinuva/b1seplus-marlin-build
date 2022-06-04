@@ -33,7 +33,6 @@ jobs:
             -v $(pwd)/Firmware/Builds:/home/platformio/build \
             -v $(pwd)/Firmware/Configuration:/home/platformio/CustomConfiguration \
              ghcr.io/tinuva/b1seplus-marlin-build:master
-#             frealmyr/marlin-build:latest
 
       - name: Push firmware
         run: |
