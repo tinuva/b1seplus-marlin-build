@@ -17,8 +17,9 @@ jobs:
     env:
       #BOARD: BIGTREE_SKR_2
       BOARD: BIGTREE_SKR_2
-      USE_REPO: https://github.com/tinuva/B1-SE-SKR2
-      USE_BRANCH: bugfix-2.0.x
+      #USE_REPO: https://github.com/MarlinFirmware/Marlin
+      #USE_BRANCH: bugfix-2.0.x
+      USE_TAG: 2.0.9.3
 
     steps:
       - name: Check out repo
