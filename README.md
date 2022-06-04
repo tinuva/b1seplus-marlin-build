@@ -20,7 +20,7 @@ This repository builds marlin firmware for the B1SEPlus 3d printer from the main
 [commits-shield]: https://img.shields.io/github/commit-activity/y/tinuva/b1seplus-marlin-build.svg
 [commits]: https://github.com/tinuva/b1seplus-marlin-build/commits/master
 [contributors]: https://github.com/tinuva/b1seplus-marlin-build/graphs/contributors
-[actions-shield]: https://github.com/tinuva/b1seplus-marlin-build/workflows/Home%20Assistant%20CI/badge.svg
+[actions-shield]: https://github.com/tinuva/b1seplus-marlin-build/workflows/Build%20Marlin%20Firmware/badge.svg
 [actions]: https://github.com/tinuva/b1seplus-marlin-build/actions
 [issue]: https://github.com/tinuva/b1seplus-marlin-build/issues
 [license-shield]: https://img.shields.io/github/license/tinuva/b1seplus-marlin-build.svg
