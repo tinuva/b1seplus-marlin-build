@@ -18,7 +18,7 @@ jobs:
       #BOARD: BIGTREE_SKR_2
       BOARD: BIGTREE_SKR_2
       USE_REPO: https://github.com/tinuva/B1-SE-SKR2
-      USE_BRANCH: 2.1.x
+      USE_BRANCH: bugfix-2.0.x
 
     steps:
       - name: Check out repo
