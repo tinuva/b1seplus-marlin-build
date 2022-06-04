@@ -10,6 +10,7 @@ on:
       - 'examples/**'
       - 'docker-compose.yml'
       - 'Firmware/Configuration/**.h'
+      - '.github/workflows/github-action.yml'
   schedule:
     - cron: 0 0 1 * * # First day of month
 
